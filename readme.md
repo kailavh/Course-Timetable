@@ -27,13 +27,4 @@ Reason for change: I added an id to make it easier to target in JavaScript and C
 ## References and Citations
 
 I used GoodNotes on my iPad to draw the wireframes.
-# Course-Timetable
-# Time
-# Time
-# Time
-# Time
-# Time
-# Time
-# Time
-# Time
-# Time
+
