@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    width:100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; 
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #444;
+  }
+  
+
+  button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  button:hover{
+    background-color: #316333;
+    color:white;
+  }
+  
+  .navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    height: 200px;
+    width: auto;
+  }
+  
+  .navbar-1 div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-1 button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .navbar-1 button:hover {
+    background-color: #316333;}
+  
+  .navbar-2 {
+    text-align: center;
+  }
+  
+  .navbar-2 h1 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-2 p {
+    color: #666;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .course-search {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .course-search input {
+    width: 100%;
+    padding: 10px;
+  }
+  .course-search button:hover{
+    background-color: #316333;}
+
+  .course-search button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #timetable,
+  #personal-schedule {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+
+  }
+  
+  table {
+    width: 150%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  @media screen and (min-width: 841px) {
+    .course-search {
+      flex-direction: row;
+    }
+  
+    .course-search input {
+      flex-grow: 1;
+      width: auto;
+    }
+  
+    .course-search button {
+      width: auto;
+    }
+  
+    .navbar-2 {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+    }
+  
+    .navbar-2 p {
+      margin-left: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 840px) {
+
+
+    .navbar-1 {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .navbar-1 div {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navbar-2 {
+      text-align: center;
+    }
+  
+    .navbar-2 p {
+      display: none;
+    }
+  
+    table {
+      font-size: 0.8rem;
+    }
+  
+    th,
+    td {
+      padding: 5px;
+    }
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    width: 150%; 
+    position: relative;
+    margin: 0;  
+  }
+  
+  .footer-box {
+    width: 100%; 
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-around;  
+    gap: 20px;  
+    flex-wrap: wrap;  
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 840px) {
+    .footer-box {
+      padding: 15px; 
+    }
+  
+    .footer-links {
+      flex-direction: column;  
+      align-items: center;    
+      gap: 15px;               
+    }
+  
+    .footer-links a {
+      font-size: 1.2rem; 
+      padding: 12px 0;    
+    }
+  }
+  

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Timetable</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="navbar-1">
+        <img src="img/Course Timetable.png" alt="logo could not be displayed" />
+        <div>
+          <button id="menu-btn">Menu</button>
+          <button>Sign Out</button>
+        </div>
+      </div>
+      <div class="navbar-2">
+        <h1>Course Timetable</h1>
+        <p>View available courses and add them to your personal schedule.</p>
+      </div>
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+      <a href="">Privacy Policy</a>
+    </nav>
+
+    <main>
+      <form class="course-search">
+        <input
+          type="text"
+          class="search-bar"
+          id="course-search-bar"
+          placeholder="Search for a course code or title"
+        />
+        <button class="search-but">Search</button>
+      </form>
+
+      <section id="timetable">
+        <h2>Available Courses</h2>
+        <section id="available-courses">
+          <table>
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Code</th>
+                <th>Enrollment</th>
+                <th>Instructor</th>
+                <th>Location</th>
+                <th>Days</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody class=""></tbody>
+          </table>
+        </section>
+      </section>
+
+      <section id="personal-schedule">
+        <h2>Your Schedule</h2>
+        <section id="selected-courses">
+          <table>
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Code</th>
+                <th>Enrollment</th>
+                <th>Instructor</th>
+                <th>Location</th>
+                <th>Days</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody class=""></tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-links">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">Privacy Policy</a>
+      </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

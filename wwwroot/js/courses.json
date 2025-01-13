@@ -1,0 +1,197 @@
+[
+  {
+    "course_code": "SHRK 1101",
+    "title": "Introduction to Shark Biology",
+    "days": ["Monday", "Wednesday"],
+    "time": "09:00 - 10:20",
+    "location": "Marine Science Center, Room 112",
+    "instructor": "Dr. Finn Reef",
+    "enrollment_info": {
+      "max": 120,
+      "current": 98,
+      "percent_full": "81.7%"
+    }
+  },
+  {
+    "course_code": "OCEA 2201",
+    "title": "Coral Reefs and Their Ecosystems",
+    "days": ["Tuesday"],
+    "time": "13:00 - 15:50",
+    "location": "Aquatic Lab, Bay 3",
+    "instructor": "Dr. Marina Current",
+    "enrollment_info": {
+      "max": 30,
+      "current": 27,
+      "percent_full": "90.0%"
+    }
+  },
+  {
+    "course_code": "SHRK 2302",
+    "title": "Shark Behavior and Hunting Strategies",
+    "days": ["Tuesday", "Thursday"],
+    "time": "11:00 - 12:20",
+    "location": "Deep Blue Auditorium",
+    "instructor": "Prof. Coral Edge",
+    "enrollment_info": {
+      "max": 150,
+      "current": 143,
+      "percent_full": "95.3%"
+    }
+  },
+  {
+    "course_code": "OCEA 3303",
+    "title": "Ocean Currents and Climate Impact",
+    "days": ["Wednesday", "Friday"],
+    "time": "08:00 - 09:20",
+    "location": "Oceanography Hall, Room 210",
+    "instructor": "Dr. Sandy Shore",
+    "enrollment_info": {
+      "max": 80,
+      "current": 65,
+      "percent_full": "81.3%"
+    }
+  },
+  {
+    "course_code": "MARL 3404",
+    "title": "Marine Life Communication",
+    "days": ["Monday", "Wednesday"],
+    "time": "15:00 - 16:20",
+    "location": "Aquatic Studies Center, Room 104",
+    "instructor": "Dr. Wave Surge",
+    "enrollment_info": {
+      "max": 100,
+      "current": 92,
+      "percent_full": "92.0%"
+    }
+  },
+  {
+    "course_code": "SHRK 3505",
+    "title": "Predators of the Deep",
+    "days": ["Thursday"],
+    "time": "10:00 - 11:50",
+    "location": "Marine Predators Pavilion, Room 5",
+    "instructor": "Dr. Gale Ridge",
+    "enrollment_info": {
+      "max": 25,
+      "current": 22,
+      "percent_full": "88.0%"
+    }
+  },
+  {
+    "course_code": "OCEA 4501",
+    "title": "The Physics of Waves",
+    "days": ["Monday", "Wednesday"],
+    "time": "10:30 - 11:50",
+    "location": "Wave Dynamics Lab, Room 7",
+    "instructor": "Prof. Surge Tide",
+    "enrollment_info": {
+      "max": 60,
+      "current": 58,
+      "percent_full": "96.7%"
+    }
+  },
+  {
+    "course_code": "SHRK 4609",
+    "title": "Shark Migration Patterns",
+    "days": ["Friday"],
+    "time": "14:00 - 16:50",
+    "location": "Marine Tracking Facility, Lab 2",
+    "instructor": "Dr. Finn Wave",
+    "enrollment_info": {
+      "max": 40,
+      "current": 34,
+      "percent_full": "85.0%"
+    }
+  },
+  {
+    "course_code": "BIOO 3101",
+    "title": "Kelp Forests and Marine Diversity",
+    "days": ["Tuesday", "Thursday"],
+    "time": "13:00 - 14:20",
+    "location": "Benthic Studies Hall, Room 302",
+    "instructor": "Prof. Coral Finley",
+    "enrollment_info": {
+      "max": 90,
+      "current": 87,
+      "percent_full": "96.7%"
+    }
+  },
+  {
+    "course_code": "OCEA 4308",
+    "title": "Shipwrecks and Marine Archaeology",
+    "days": ["Wednesday"],
+    "time": "13:00 - 15:00",
+    "location": "Historic Tides Center",
+    "instructor": "Dr. Morgan Wave",
+    "enrollment_info": {
+      "max": 25,
+      "current": 20,
+      "percent_full": "80.0%"
+    }
+  },
+  {
+    "course_code": "SHRK 4410",
+    "title": "Conservation of Shark Species",
+    "days": ["Monday", "Wednesday"],
+    "time": "16:00 - 17:20",
+    "location": "Marine Conservation Center, Room 8",
+    "instructor": "Prof. Reef Crag",
+    "enrollment_info": {
+      "max": 110,
+      "current": 85,
+      "percent_full": "77.3%"
+    }
+  },
+  {
+    "course_code": "OCEA 4401",
+    "title": "Deep Sea Exploration Techniques",
+    "days": ["Thursday"],
+    "time": "14:00 - 17:00",
+    "location": "Oceanic Research Lab",
+    "instructor": "Dr. Abyss Gills",
+    "enrollment_info": {
+      "max": 20,
+      "current": 19,
+      "percent_full": "95.0%"
+    }
+  },
+  {
+    "course_code": "MARL 4406",
+    "title": "Reef Ecology and Sustainability",
+    "days": ["Tuesday", "Thursday"],
+    "time": "10:30 - 11:50",
+    "location": "Coral Studies Hall, Room 204",
+    "instructor": "Prof. Pearl Wave",
+    "enrollment_info": {
+      "max": 85,
+      "current": 72,
+      "percent_full": "84.7%"
+    }
+  },
+  {
+    "course_code": "SHRK 4307",
+    "title": "Shark Evolution and Adaptations",
+    "days": ["Wednesday", "Friday"],
+    "time": "09:30 - 10:50",
+    "location": "Oceanic Evolution Hall",
+    "instructor": "Dr. Tide Reef",
+    "enrollment_info": {
+      "max": 65,
+      "current": 55,
+      "percent_full": "84.6%"
+    }
+  },
+  {
+    "course_code": "OCEA 3302",
+    "title": "Introduction to Marine Toxins",
+    "days": ["Monday"],
+    "time": "14:00 - 16:00",
+    "location": "Tidewater Hall, Room 101",
+    "instructor": "Prof. Coral Tide",
+    "enrollment_info": {
+      "max": 45,
+      "current": 38,
+      "percent_full": "84.4%"
+    }
+  }
+]
